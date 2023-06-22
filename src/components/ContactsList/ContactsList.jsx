@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { BsTrash } from 'react-icons/bs';
 import { ContactItem } from './ContactsList.styled';
+
 const ContactsList = ({ contacts, onDeleteContact }) => (
   <ul>
     {contacts.map(({ name, number, id }) => (
